@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import BookList from './stateSample/BookList';
+import CitySort from './stateSample/CitySort';
+import CssDiv from './stateSample/CssDiv';
+import Cssh1 from './stateSample/Cssh1';
+import DivChange from './stateSample/DivChange';
+import InputMultiplication from './stateSample/InputMultiplication';
+import LiDelete from './stateSample/LiDelete';
+import Number from './stateSample/Number';
+import RandomNumber from './stateSample/RandomNumber';
+import ShowHide from './stateSample/ShowHide';
+import SupplierTable from './stateSample/SupplierTable';
+import Tempature from './stateSample/Tempature';
+import Tempaturee from './stateSample/Tempaturee';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Tempaturee></Tempaturee>
+    </>
   );
 }
 
