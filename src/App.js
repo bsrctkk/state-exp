@@ -13,11 +13,14 @@ import ShowHide from './stateSample/ShowHide';
 import SupplierTable from './stateSample/SupplierTable';
 import Tempature from './stateSample/Tempature';
 import Tempaturee from './stateSample/Tempaturee';
+import CategoryPage from './effectSample/CategoryPage';
+import OrderPage from './effectSample/OrderPage';
+import ProductUpdate from './effectSample/ProductUpdate';
 
 function App() {
   return (
     <>
-    <Tempaturee></Tempaturee>
+    <OrderPage></OrderPage>
     </>
   );
 }
